@@ -21,21 +21,21 @@ const ContactState = (props) => {
     contacts: [
       {
         id: '1',
-        name: 'a',
+        name: 'ann',
         email: 'a@gmail.com',
         phone: '123',
         type: 'personal',
       },
       {
         id: '2',
-        name: 'b',
+        name: 'bea',
         email: 'b@gmail.com',
         phone: '123',
         type: 'personal',
       },
       {
         id: '3',
-        name: 'c',
+        name: 'cat',
         email: 'c@gmail.com',
         phone: '123',
         type: 'personal',
