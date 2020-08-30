@@ -42,4 +42,27 @@ const ContactState = (props) => {
       },
     ],
   }
+
+  const [state, dispatch] = useReducer(contactReducer, initialState)
+
+  //Add contact
+
+  //delete contact
+
+  //set current contact
+
+  //clear current contact
+
+  //update contact
+
+  //filter contacts
+
+  //clear filter
+  return (
+    <ContactContext.Provider value={{ contacts: state.contacts }}>
+      {props.children}
+    </ContactContext.Provider>
+  )
 }
+
+export default ContactState
