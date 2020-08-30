@@ -17,27 +17,29 @@ import {
 } from '../types'
 
 const ContactState = (props) => {
-  const initialState = [
-    {
-      id: '1',
-      name: 'a',
-      email: 'a@gmail.com',
-      phone: '123',
-      type: 'personal',
-    },
-    {
-      id: '2',
-      name: 'b',
-      email: 'b@gmail.com',
-      phone: '123',
-      type: 'personal',
-    },
-    {
-      id: '3',
-      name: 'c',
-      email: 'c@gmail.com',
-      phone: '123',
-      type: 'personal',
-    },
-  ]
+  const initialState = {
+    contacts: [
+      {
+        id: '1',
+        name: 'a',
+        email: 'a@gmail.com',
+        phone: '123',
+        type: 'personal',
+      },
+      {
+        id: '2',
+        name: 'b',
+        email: 'b@gmail.com',
+        phone: '123',
+        type: 'personal',
+      },
+      {
+        id: '3',
+        name: 'c',
+        email: 'c@gmail.com',
+        phone: '123',
+        type: 'personal',
+      },
+    ],
+  }
 }
