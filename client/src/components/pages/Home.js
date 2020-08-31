@@ -4,7 +4,7 @@ import ContactForm from '../contacts/ContactForm'
 
 const Home = () => {
   return (
-    <div classname='grid-2'>
+    <div className='grid-2'>
       <div>
         <ContactForm />
       </div>
