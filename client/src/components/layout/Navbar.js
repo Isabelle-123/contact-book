@@ -25,7 +25,7 @@ Navbar.propTypes = {
 }
 
 Navbar.defaultProps = {
-  title: ' Contact Logger',
+  title: ' Contact Book',
   icon: 'fas fa-id-card-alt',
 }
 
