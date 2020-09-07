@@ -6,9 +6,7 @@ import {
   CLEAR_CURRENT,
   UPDATE_CONTACT,
   //   FILTER_CONTACTS,
-  //   CLEAR_CONTACTS,
   //   CLEAR_FILTER,
-  //   CONTACT_ERROR,
 } from '../types'
 
 export default (state, action) => {

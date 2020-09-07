@@ -18,6 +18,7 @@ import {
 
 const ContactState = (props) => {
   const initialState = {
+    current: null,
     contacts: [
       {
         id: '1',
@@ -41,7 +42,6 @@ const ContactState = (props) => {
         type: 'professional',
       },
     ],
-    current: null,
   }
 
   const [state, dispatch] = useReducer(contactReducer, initialState)
@@ -70,6 +70,7 @@ const ContactState = (props) => {
   //filter contacts
 
   //clear filter
+
   return (
     <ContactContext.Provider
       value={{
