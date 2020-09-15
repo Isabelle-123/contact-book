@@ -6,8 +6,6 @@ import About from './components/pages/About'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ContactState from './context/contact/ContactState'
 
-import ContactState from './context/contact/ContactState'
-
 const App = () => {
   return (
     <ContactState>
