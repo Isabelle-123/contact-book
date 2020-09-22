@@ -10,6 +10,12 @@ const Register = () => {
 
   const { register } = authContext
 
+  // useEffect(() => {
+  //   if (error === 'User already exists') {
+  //     setAlert(error, 'danger')
+  //   }
+  // }, [error])
+
   const [user, setUser] = useState({
     name: '',
     email: '',
