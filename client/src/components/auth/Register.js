@@ -7,7 +7,6 @@ const Register = () => {
   const authContext = useContext(AuthContext)
 
   const { setAlert } = alertContext
-
   const { register } = authContext
 
   // useEffect(() => {
