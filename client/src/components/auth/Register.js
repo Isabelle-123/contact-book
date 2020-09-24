@@ -91,7 +91,7 @@ const Register = () => {
         <input
           type='submit'
           value='Register'
-          className='btm btn-primary btn-block'
+          className='btn btn-primary btn-block'
         />
       </form>
     </div>
