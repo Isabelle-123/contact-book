@@ -53,8 +53,7 @@ const Register = () => {
             required
           />
         </div>
-      </form>
-      <form>
+
         <div className='form-group'>
           <label htmlFor='email'>Email</label>
           <input
@@ -65,9 +64,7 @@ const Register = () => {
             required
           />
         </div>
-      </form>
 
-      <form>
         <div className='form-group'>
           <label htmlFor='password'>Password</label>
           <input
@@ -79,8 +76,7 @@ const Register = () => {
             minLength='6'
           />
         </div>
-      </form>
-      <form>
+
         <div className='form-group'>
           <label htmlFor='password2'>Confirm Password</label>
           <input
