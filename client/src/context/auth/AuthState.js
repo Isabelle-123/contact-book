@@ -2,7 +2,7 @@ import React, { useReducer } from 'react'
 import AuthContext from './authContext'
 import authReducer from './authReducer'
 import axios from 'axios'
-//import setAuthToken from '../../utils/setAuthToken';
+//import setAuthToken from '../../utils/setAuthToken'
 import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
@@ -34,7 +34,7 @@ const AuthState = (props) => {
   const register = async (formData) => {
     const config = {
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': ['application/json'],
       },
     }
     try {
