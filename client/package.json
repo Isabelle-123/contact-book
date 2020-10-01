@@ -15,7 +15,7 @@
     "uuid": "^8.3.0"
   },
   "scripts": {
-    "start": "react-scripts start --max-http-header-size=65535",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +35,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000"
+  "proxy": "http://localhost:3000",
+  "secure": "false"
 }
