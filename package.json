@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon",
-    "client": "npm start --prefix client",
+    "client": "npm start --prefix client NODE_OPTIONS=--max-http-header-size=80000 ",
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
