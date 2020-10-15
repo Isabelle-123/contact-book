@@ -37,13 +37,9 @@ const Register = () => {
     } else {
       register({ name, email, password })
     }
-    console.log(
-      'Register.js: registrerar  name, email, password: ' + name,
-      email,
-      password
-    )
-    console.log('Register:js registrerar user.name:' + user.name)
-    console.log('Register:js registrerar user:' + user)
+    console.log('user.name:' + user.name)
+
+    console.log('user is ****:' + user)
   }
 
   return (

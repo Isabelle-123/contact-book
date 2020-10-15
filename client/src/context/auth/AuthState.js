@@ -49,9 +49,9 @@ const AuthState = (props) => {
         payload: err.response.data.msg,
       })
     }
-    console.log(`authstate: formData  ${formData}`)
-    console.log(`authstate: formData.name  ${formData.name}`)
-    console.log(`authstate: state  ${state}`)
+    console.log(`formData is **** ${formData}`)
+
+    console.log(`state is **** ${state}`)
   }
   // login user
   const login = () => {

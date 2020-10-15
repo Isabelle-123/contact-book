@@ -26,7 +26,7 @@ router.post(
       return res.status(400).json({ errors: errors.array() })
     }
 
-    const { name, email, password } = req.body
+    const { name, email, password } = JSON.stringify(req.body)
 
     try {
       let user = await User.findOne({ email })
