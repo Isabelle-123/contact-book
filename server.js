@@ -1,8 +1,8 @@
 const express = require('express')
 const connectDB = require('./config/db')
 // var bodyParser = require('body-parser')
-const path = require('path')
-
+//const path = require('path')
+const cors = require('cors')
 const app = express()
 
 //Connect DB
@@ -10,6 +10,7 @@ connectDB()
 
 //Init Middleware
 app.use(express.json({ extended: false }))
+app.use(cors())
 
 app.get('/', (req, res) => res.json({ msg: 'Welcome to my Contact book API' }))
 
