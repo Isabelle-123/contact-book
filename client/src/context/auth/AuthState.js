@@ -36,9 +36,11 @@ const AuthState = (props) => {
       headers: {
         'Content-Type': ['application/json'],
       },
+      body: JSON.stringify(formData),
     }
     try {
       const res = await axios.post('/api/users', formData, config)
+      JSON.stringify(formData)
       dispatch({
         type: REGISTER_SUCCESS,
         payload: res.data,
@@ -49,9 +51,9 @@ const AuthState = (props) => {
         payload: err.response.data.msg,
       })
     }
-    console.log(`formData is **** ${formData}`)
+    console.log(`formData is **** ${JSON.stringify(formData)}`)
 
-    console.log(`state is **** ${state}`)
+    console.log(`state is **** ${JSON.stringify(state)}`)
   }
   // login user
   const login = () => {
